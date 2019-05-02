@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    
+    a:link {
+        color: red
+    }
+    /*当链接被访问过后，就会添加伪类 visited */
+    a:visited{
+        color:lawngreen
+    }
+    /*当鼠标悬停于元素上面的时候，会自动添加伪类：hover*/
+    a:hover{
+        color:#fff;
+        background-color:darkmagenta 
+    }
+    /*当链接被点击 鼠标不要放开时 active*/
+    a:active{
+        color:gold
+    }
+     /*获取焦点的时候， 默认给标签添加focus*/
+    input:focus{
+        color: red
+    }
+   
+    </style>
+</head>
+<body>
+    <a href="#">首页</a>
+    <a href="#">产品</a>
+    <a href="#">新闻</a>
+    <a href="/">新闻</a>
+
+    <input type="text">
+
+</body>
+</html>

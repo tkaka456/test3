@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+    .par {
+        display:none
+    }
+
+    .block-span {
+        display:block
+    }
+    /*元素标签独占一行 变成块级元素 div是块级元素 span是元素标签*/
+    #imgtext {
+        width: 200px;
+        height: 180px;
+    }
+    /*display-line 把块级元素变成元素标签在一行显示 用的比较少*/
+    #bt {
+        background-color: green;
+        height: 400px;
+        width: 400px;
+        display:inline-block 
+    }
+</style>
+
+</head>
+
+<body>
+
+    <div class="par">
+        fsdfsdfsdfsdfsdfsdfsdfsdfsd
+    </div>
+
+    <span class="block-span">我是span1</span>
+    <p>
+    <span id="bt">我是span2</span>
+    <img id="imgtext" src="./1.bmp" title="haha" alt="bigfat">
+    <span>我是span3</span>
+</p>
+
+
+
+</body>
+
+</html>

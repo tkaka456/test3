@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    span[class] {
+        color:green;
+    }
+    [id] {
+        font-size: 50px;
+    }
+
+    span [id="4"] {
+        color:yellow;
+    }
+    span[class~="demo"] {
+        font-size: 100px
+    }
+    /*class~= class下包含某个值都*/
+
+
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <p>
+        <span class="cur demo">1</span>
+        <span>2</span>
+        <span id="3">3</span>
+        <span id="4">4</span>
+        <span>5</span>
+    </p>
+</body>
+</html>

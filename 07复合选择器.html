@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        li.current {
+            background-color: pink
+        }
+        
+        #home {
+            font-weight: bold;
+        }
+        
+        .news li a {
+            color: #333
+        }
+        
+        .f-news a,
+        .n-news a {
+            color: silver
+        }
+        
+        html,
+        body,
+        div,
+        dt,
+        dd,
+        dl,
+        ul,
+        p {
+            padding: 0;
+            /*内边距*/
+            margin: 0;
+            /*外边距*/
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li id="home"><a href="#">首页</a></li>
+        <li><a href="#">产品</a></li>
+        <li class="current"><a href="#">售后</a></li>
+        <li><a href="#">关于</a></li>
+        <li><a href="#">联系我们</a></li>
+    </ul>
+
+    <ul class="news">
+        <li><a href="#">韩国</a>哈哈</li>
+        <li><a href="#">日本</a></li>
+        <li><a href="#">美利坚</a></li>
+        <li><a href="#">大英帝国</a></li>
+    </ul>
+
+    <dl class="f-news">
+        <dt><a href="#">财经新闻</a></dt>
+        <dd><a href="#">暴富</a></dd>
+        <dd><a href="#">股票</a></dd>
+        <dd><a href="#">黄金</a></dd>
+        <dd><a href="#">债券</a></dd>
+    </dl>
+
+    <dl class="n-news">
+        <dt><a href="#">体育新闻</a></dt>
+        <dd><a href="#">滑冰</a></dd>
+        <dd><a href="#">滑雪</a></dd>
+        <dd><a href="#">足球</a></dd>
+        <dd><a href="#">篮球</a></dd>
+
+    </dl>
+
+
+</body>
+
+</html>

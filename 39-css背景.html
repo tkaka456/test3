@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+    div {
+        height: 400px;
+        width: 400px;
+        border: 1px solid saddlebrown
+    }
+    .bg {
+        background-color: #cda;
+        background-image: url(1.bmp);/*优先级高于背景色*/
+        
+    }
+
+    .bg2 {
+        background-image: url(212.jpg);
+        background-repeat: no-repeat;
+        /*repeat-x 横向平铺 repeat-y竖向平铺*/
+        padding-left: 150px;
+        padding-top: 50px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg2">新闻标题</div>
+</body>
+</html>

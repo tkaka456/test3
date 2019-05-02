@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+     body, div {
+         padding: 0;
+         margin: 0;
+     }
+    .main {
+        width: 600px;
+        margin: 100px auto;
+    }
+    .btn1 {
+        position: relative;
+        width: 100px;
+        height: 26px;
+        line-height: 26px;
+        color:#eee;
+        text-align: center;
+        background-color: #90c;
+        border: 1px solid #a3f;
+        border-radius: 3px;
+    }
+    .btn1::before {
+        content:"";
+        position: absolute;
+        left:45%;
+        top:-18px;
+        display: block;
+        width: 0;
+        height: 0;
+        
+        border: 9px solid #90c;
+        border-color:transparent transparent #90c;
+        border-style: dashed dashed solid
+
+    }
+    
+    
+    </style>
+
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="btn1">
+            气泡按钮
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
